@@ -1,0 +1,175 @@
+<resources>
+
+    <string name="google_play_games">Play Spiele</string>
+    <string name="website">Webseite</string>
+    <string name="error">Fehler</string>
+
+    <string name="video_url">Video URL</string>
+    <string name="download_and_play">Download and Play</string>
+    <string name="error_invalid_input">Please enter a valid http URL</string>
+    <string name="hardcoded_video_url">https://socialcops.com/images/spec/home/header-img-background_video-1920-480.mp4</string>
+    <string name="error_generic">مشکلی پیش آمده است</string>
+    <string name="hardcoded_video_url_2">http://res.cloudinary.com/demo/video/upload/w_400/dog.mp4</string>
+    <string name="delete">Delete Cached Files</string>
+    <string name="deleting_videos">Deleting offline videos</string>
+    <string name="playing_offline">پخش آفلاین</string>
+    <string name="cache_status">پخش آنلاین: دانلود شده %d%%</string>
+
+    <string name="rate_five_stars">به این برنامه امتیاز دهید</string>
+    <string name="more_apps">Mehr Apps von mir</string>
+    <string name="share_app">به اشتراک گذاری برنامه</string>
+    <string name="update_app">به روز رسانی برنامه</string>
+    <string name="feedback_app">ارسال نظرات</string>
+    <string name="introduce_app">معرفی برنامه</string>
+    <string name="changelog">تغیررات این نسخه</string>
+    <string name="remove_ads">Werbung entfernen</string>
+    <string name="donate">Spenden</string>
+    <string name="help">کمک</string>
+    <string name="privacy">حریم خصوصی</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+    <string name="notification_channel_name">tapesh notifications</string>
+    <string name="gadgetbridge_running">tapesh running</string>
+    <string name="not_connected">عدم اتصال...لطفا اتصال به دستبند را بررسی نمایید</string>
+    <string name="connecting">درحال اتصال</string>
+    <string name="connected">متصل شد</string>
+    <string name="busy_task_fetch_activity_data">دریافت داده ها</string>
+    <string name="notif_battery_low_title">میزان شارژ باتری دستبند کم است!</string>
+    <string name="notif_battery_low_percent">%1$s باتری باقیمانده: %2$s%%</string>
+    <string name="notif_battery_low_bigtext_last_charge_time">Last charge: %s \n</string>
+    <string name="notif_battery_low_bigtext_number_of_charges">Number of charges: %s</string>
+    <string name="battery">باتری</string>
+
+    <string name="app_name">tapesh</string>
+    <string name="default_input_hint">پیام خود را برای پرستار بنویسید...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">خانه</string>
+    <string name="profile">پروفایل</string>
+    <string name="message">پیام</string>
+    <string name="chart">گزارش</string>
+    <string name="setting">تنظیمات</string>
+    <string name="add_alarm">Add New Alarm</string>
+    <string name="new_alarm_added">New alarm added successfully</string>
+    <string name="form_hint_title">مقدار را وارد کنید</string>
+    <string name="seekbar_message">مشخص کنید حرکات نرمشی انجام شده چقدر سخت بوده؟</string>
+    <string name="form_hint_description">Alarm description (optional)</string>
+    <string name="error_title_min_characters">At least %1$d characters</string>
+    <string name="main_activity_explanation">Click the button to try it!</string>
+    <string name="main_activity_explanation_disclaimer">This app DOES NOT set up alarms for real!</string>
+    <string-array name="steps_titles">
+        <item>فشار خون</item>
+        <item>قند خون</item>
+        <item>وزن</item>
+        <item>سیگار</item>
+        <item>خواب</item>
+    </string-array>
+    <string-array name="steps_titles_without_glucose">
+        <item>فشار خون</item>
+
+        <item>وزن</item>
+        <item>سیگار</item>
+        <item>خواب</item>
+    </string-array>
+
+
+    <string-array name="steps_subtitles">
+        <item>Title of the alarm</item>
+        <item>Description of the alarm</item>
+        <item>Time when the alarm will go off</item>
+        <item>Week schedule of the alarm</item>
+    </string-array>
+    <string-array name="week">
+
+
+        <item>دوشنبه</item>
+        <item>یکشنبه</item>
+        <item>شنبه</item>
+        <item>جمعه</item>
+        <item>پنچشنبه</item>
+        <item>چهارشنبه</item>
+        <item>سه شنبه</item>
+    </string-array>
+
+    <string-array name="month">
+
+        <item>سه شنبه</item>
+        <item>دوشنبه</item>
+        <item>یکشنبه</item>
+        <item>شنبه</item>
+        <item>جمعه</item>
+        <item>پنچشنبه</item>
+        <item>چهارشنبه</item>
+    </string-array>
+    <string-array name="seekbar_array">
+
+        <item>5 ثانیه</item>
+        <item>10 ثانیه</item>
+        <item>15 ثانیه</item>
+        <item>20 ثانیه</item>
+        <item>25 ثانیه</item>
+        <item>30 ثانیه</item>
+        <item>1 دقیقه</item>
+        <item>5 دقیقه</item>
+        <item>10 دقیقه</item>
+        <item>15 دقیقه</item>
+        <item>20 دقیقه</item>
+        <item>25 دقیقه</item>
+        <item>30 دقیقه</item>
+        <item>1 ساعت</item>
+        <item>2 ساعت</item>
+        <item>3 ساعت</item>
+        <item>4 ساعت</item>
+        <item>5 ساعت</item>
+        <item>6 ساعت</item>
+        <item>7 ساعت</item>
+        <item>8 ساعت</item>
+        <item>9 ساعت</item>
+        <item>10 ساعت</item>
+        <item>11 ساعت</item>
+        <item>12 ساعت</item>
+
+
+
+    </string-array>
+
+
+    <string name="hint_name"><font size="20">نام</font></string>
+    <string name="hint_family"><font size="20">نام خانوادگی</font></string>
+    <string name="hint_father_name"><font size="20">نام پدر</font></string>
+    <string name="hint_code"><font size="20">کد ملی</font></string>
+    <string name="hint_phone"><font size="20">تلفن ثابت</font></string>
+    <string name="hint_mobile"><font size="20">همراه</font></string>
+    <string name="hint_date"><font size="20">تاریخ تولد</font></string>
+    <string name="hint_sex"><font size="20">جنسیت</font></string>
+    <string name="hint_job"><font size="20">شغل</font></string>
+    <string name="hint_education"><font size="20">تحصیلات</font></string>
+    <string name="hint_what_did_do"><font size="20">اقدامی که به منظور رفع مشکل انجام شد؟</font></string>
+    <!-- We can overwrite the values of the library's strings in order to customize them -->
+    <string name="vertical_form_stepper_form_continue">ادامه</string>
+    <string name="vertical_form_stepper_form_last_step">ثبت</string>
+    <string name="vertical_form_stepper_form_confirm_button">ثبت</string>
+    <string name="vertical_form_stepper_form_discard_question">Discard alarm?</string>
+    <string name="vertical_form_stepper_form_info_will_be_lost">All the information about this new alarm will be lost</string>
+    <string name="vertical_form_stepper_form_sending_data_message">Adding new alarm…</string>
+
+
+    //===========================================================================================================
+    <string name="title_activity_controlcenter">تنظیمات دستبند</string>
+
+    <string name="about_contact_us">تماس با ما</string>
+    <string name="about_instagram">ما را دراینستاگرام دنبال کنید</string>
+    <string name="about_facebook">ما را در فیسبوک دنبال کنید</string>
+    <string name="about_play_store">به ما در گوگل پلی امتیاز بدید</string>
+    <string name="about_youtube">آخرین ویدیو های ما در یوتیوب</string>
+    <string name="about_twitter">ما را در توییتر دنبال کنید</string>
+    <string name="about_github">ما را در گیتهاب دنبال کنید</string>
+    <string name="about_website">وبسایت ما</string>
+
+</resources>

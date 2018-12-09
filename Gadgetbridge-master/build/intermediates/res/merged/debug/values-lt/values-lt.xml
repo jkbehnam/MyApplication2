@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Eiti į pagrindinį puslapį"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Eiti į viršų"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Daugiau parinkčių"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Atlikta"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Peržiūrėti viską"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pasirinkti programą"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"IŠJUNGTA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ĮJUNGTI"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ieškoti..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Išvalyti užklausą"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Paieškos užklausa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Paieška"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pateikti užklausą"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paieška balsu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bendrinti naudojant"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant programą „<ns1:g id="APPLICATION_NAME">%s</ns1:g>“"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <string name="action_debug">Šalinti riktus</string>
+    <string name="action_donate">Aukoti</string>
+    <string name="action_quit">Išeiti</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="app_configure">Konfigūruoti</string>
+    <string name="app_move_to_top">Perkelti į viršų</string>
+    <string name="app_name">Gadgetbridge</string>
+    <string name="appmanager_app_openinstore">Ieškoti \"Pebble\" programų parduotuvėje</string>
+    <string name="appmanager_cached_watchapps_watchfaces">Programos talpykloje</string>
+    <string name="appmanager_health_activate">Įjungti</string>
+    <string name="appmanager_health_deactivate">Išjungti</string>
+    <string name="appmanager_hrm_activate">Įjungti širdies ritmo stebėjimą</string>
+    <string name="appmanager_hrm_deactivate">Išjungti širdies ritmo stebėjimą</string>
+    <string name="appmanager_installed_watchapps">Įdiegtos programos</string>
+    <string name="appmanager_installed_watchfaces">Įdiegti laikrodžio stiliai</string>
+    <string name="appmanager_weather_activate">Įjungti sistemos orų prognozės programą</string>
+    <string name="appmanager_weather_deactivate">Išjungti sistemos orų prognozės programą</string>
+    <string name="appmanager_weather_install_provider">Įdiegti orų prognozės pranešimų programą</string>
+    <string name="appmananger_app_delete">Ištrinti</string>
+    <string name="appmananger_app_delete_cache">Ištrinti ir pašalinti iš talpyklos</string>
+    <string name="appmananger_app_reinstall">Įdiegti iš naujo</string>
+    <string name="controlcenter_connect">Prijungti</string>
+    <string name="controlcenter_delete_device">Ištrinti įrenginį</string>
+    <string name="controlcenter_delete_device_dialogmessage">Šiuo veiksmu ištrinsite įrenginį ir visus jo sukauptus duomenis</string>
+    <string name="controlcenter_delete_device_name">Ištrinti %1$s</string>
+    <string name="controlcenter_disconnect">Atjungti</string>
+    <string name="controlcenter_fetch_activity_data">Sinchronizuoti</string>
+    <string name="controlcenter_find_device">Surasti pamestą įrenginį</string>
+    <string name="controlcenter_navigation_drawer_close">Užverti programos meniu</string>
+    <string name="controlcenter_navigation_drawer_open">Atverti programos meniu</string>
+    <string name="controlcenter_snackbar_connecting">Jungiama</string>
+    <string name="controlcenter_snackbar_disconnecting">Atjungiama</string>
+    <string name="controlcenter_snackbar_need_longpress">Norėdami atjungti ilgai spauskite kortelę</string>
+    <string name="controlcenter_snackbar_requested_screenshot">Daroma įrenginio ekrano nuotrauka</string>
+    <string name="controlcenter_take_screenshot">Padaryti ekrano nuotrauką</string>
+    <string name="devicetype_amazfit_bip">Amazfit Bip</string>
+    <string name="devicetype_amazfit_cor">Amazfit Cor</string>
+    <string name="devicetype_exrizu_k8">Exrizu K8</string>
+    <string name="devicetype_hplus">HPlus</string>
+    <string name="devicetype_liveview">LiveView</string>
+    <string name="devicetype_makibes_f68">Makibes F68</string>
+    <string name="devicetype_miband">Mi Band</string>
+    <string name="devicetype_miband2">Mi Band 2</string>
+    <string name="devicetype_pebble">Pebble</string>
+    <string name="devicetype_test">Išbandyti įrenginį</string>
+    <string name="devicetype_vibratissimo">Vibratissimo</string>
+    <string name="exo_controls_fastforward_description">"Sukti pirmyn"</string>
+    <string name="exo_controls_next_description">"Kitas takelis"</string>
+    <string name="exo_controls_pause_description">"Pristabdyti"</string>
+    <string name="exo_controls_play_description">"Leisti"</string>
+    <string name="exo_controls_previous_description">"Ankstesnis takelis"</string>
+    <string name="exo_controls_rewind_description">"Sukti atgal"</string>
+    <string name="exo_controls_stop_description">"Stabdyti"</string>
+    <string name="menuitem_activity">Veikla</string>
+    <string name="menuitem_alarm">Žadintuvas</string>
+    <string name="menuitem_alipay">Alipay</string>
+    <string name="menuitem_compass">Kompasas</string>
+    <string name="menuitem_settings">Nustatymai</string>
+    <string name="menuitem_timer">Laikmatis</string>
+    <string name="menuitem_weather">Oras</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Paieška"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_activity_appblacklist">Pranešimų juodasis sąrašas</string>
+    <string name="title_activity_appmanager">Programų tvarkyklė</string>
+    <string name="title_activity_calblacklist">Kalendorių juodasis sąrašas</string>
+    <string name="title_activity_controlcenter">Gadgetbridge</string>
+    <string name="title_activity_debug">Derinti</string>
+    <string name="title_activity_fw_app_insaller">FW/Programų diegyklė</string>
+</resources>

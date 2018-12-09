@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/base_background"
+    android:layoutDirection="ltr"
+
+    android:layout_height="wrap_content">
+    <TableRow
+        android:gravity="center_vertical|end"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/tv_setting_band"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="اتصال به دستبند"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_device_miband_disabled" />
+
+    </TableRow>
+
+</LinearLayout>

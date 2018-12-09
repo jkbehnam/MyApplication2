@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+
+    xmlns:fbutton="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+<include android:id="@+id/toolbar" layout="@layout/exercise_toolbar_befor_exercise"></include>
+
+
+        <LinearLayout
+            android:layout_below="@id/toolbar"
+            android:layout_above="@+id/li2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_report"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+<LinearLayout
+    android:id="@+id/li2"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_report2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="متوجه شدم"
+        android:textColor="@color/white"
+        android:textSize="@dimen/list_title_text"
+        app:fButtonColor="#00c9c8"
+android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        fbutton:shadowColor="@color/white"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="3dp" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/expandible_cv"
+        android:layout_alignParentBottom="true"
+        android:gravity="end|center_vertical"
+        android:paddingBottom="3sp"
+        android:paddingEnd="10sp"
+        android:paddingStart="10sp"
+
+        android:paddingTop="3sp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normal_text"
+            android:text="دیگر این پیام را نمایش نده" />
+
+        <CheckBox
+            android:id="@+id/show_again_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+            android:gravity="right|center"
+            android:text="" />
+    </TableRow>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_be_intelligent"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="5sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:cardCornerRadius="3sp"
+        app:cardElevation="@dimen/cvMessageActivityElevation">
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/main_sport_imageView"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/exercise_icon_chromecast_recyclerview" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <tapesh_exercise.my_custom_component.TextViewEx
+                        android:id="@+id/main_sport_title"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/tvMessageActivityMargin"
+                        android:layout_marginRight="@dimen/tvMessageActivityMargin"
+                        android:layout_weight="1"
+                        android:gravity="right|center"
+                        android:text="عنوان پیام"
+                        android:textColor="@color/tvMessageActivityTitleColor"
+                        android:textSize="@dimen/list_title_text" />
+                </TableRow>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

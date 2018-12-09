@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="40sp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#f0f0f0"
+        app:cardCornerRadius="20sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/howmuch"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/hm"
+                  layout="@layout/exercise_alert_howmuch_heart_alarm"  ></include>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/howmuch2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/hm2"
+                    layout="@layout/exercise_alert_decrease_heart_alarm"  ></include>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/av_from_code"
+                    android:layout_width="200sp"
+                    android:layout_height="200sp"
+                    app:lottie_autoPlay="true"
+
+                    app:lottie_fileName="heart_rate.json"
+                    app:lottie_loop="true" />
+
+
+                <TextView
+                    android:id="@+id/tv_alarm_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:text="آیا در حال انجام حرکات ورزشی هستید؟"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/tv_time_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+android:visibility="gone"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:text="HH:MM:SS"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="64dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="8dip"
+                        android:layout_weight="1"
+                        android:src="@drawable/exit_white_png"
+                        app:cb_color="#cc4700" />
+
+                    <at.markushi.ui.CircleButton
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="64dip"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="8dip"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_action_tick"
+                        app:cb_color="#99CC00" />
+
+                </TableRow>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

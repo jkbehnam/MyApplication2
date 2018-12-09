@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/what_is_ezterab_cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+
+            android:clickable="true"
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingBottom="5sp">
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:paddingBottom="3sp"
+                    android:paddingEnd="10sp"
+                    android:paddingStart="10sp"
+
+                    android:paddingTop="3sp">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="TextView"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main_list_textZise" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:buttonTint="@color/selected_cardview_text"
+                        android:checked="false"
+                        android:gravity="right|center"
+                        android:text="" />
+                </TableRow>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:id="@+id/expandableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:orientation="vertical"
+        app:ael_duration="400"
+        app:ael_expanded="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/exercise_gradient_up" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|center_vertical"
+                    android:paddingBottom="3sp"
+                    android:paddingEnd="10sp"
+                    android:paddingStart="10sp"
+
+                    android:paddingTop="3sp">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="در زمان ورزش"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text" />
+
+                    <CheckBox
+                        android:id="@+id/in_exercise_checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:buttonTint="@color/selected_cardview_text"
+                        android:checked="false"
+                        android:gravity="right|center"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|center_vertical"
+                    android:paddingBottom="3sp"
+                    android:paddingEnd="10sp"
+                    android:paddingStart="10sp"
+                    android:paddingTop="3sp">
+
+
+                    <com.warkiz.widget.IndicatorStayLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.warkiz.widget.IndicatorSeekBar
+                            android:id="@+id/sign_seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:isb_indicator_color="@color/selected_cardview_text"
+                            app:isb_indicator_text_size="@dimen/seekbarsize"
+                            app:isb_max="34"
+                            app:isb_min="0"
+                            app:isb_progress="0"
+                            app:isb_track_progress_color="@color/selected_cardview_text"
+                            app:isb_show_indicator="rounded_rectangle"
+                            app:isb_show_tick_marks_type="none"
+                            app:isb_show_tick_texts="true"
+                            app:isb_thumb_color="@color/selected_cardview_text"
+                            app:isb_thumb_size="@dimen/seekbarsize"
+                            app:isb_tick_marks_color="@color/selected_cardview_text"
+                            app:isb_tick_marks_size="@dimen/seekbarsize"
+                            app:isb_tick_texts_array="@array/seekbar_array"
+                            app:isb_tick_texts_color="@color/base_background"
+                            app:isb_tick_texts_size="@dimen/seekbarsize"
+                            app:isb_ticks_count="35"
+                            app:isb_track_progress_size="@dimen/seekbarsize" />
+                    </com.warkiz.widget.IndicatorStayLayout>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="مدت زمان"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/hint_what_did_do">
+
+                        <EditText
+                            android:id="@+id/what_did_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginStart="5dp"
+                            android:focusableInTouchMode="true"
+                            android:gravity="right"
+                            android:inputType="textMultiLine"
+                            android:singleLine="false"
+                            android:text=""
+                            android:textSize="@dimen/normal_text" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </TableRow>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/exercise_gradient_down" />
+        </LinearLayout>
+
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+</RelativeLayout>

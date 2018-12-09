@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableRow
+        android:layout_marginBottom="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.behnam.myapplication.my_custom_component.my_BarChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.behnam.myapplication.my_custom_component.my_BarChart_multiple
+            android:id="@+id/chart2"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+    </TableRow>
+</LinearLayout>

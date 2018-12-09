@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <include layout="@layout/exercise_toolbar_all_page"></include>
+    <TableRow
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:id="@+id/scrollArrow"
+            android:layout_width="25dp"
+            android:rotation="180"
+            android:padding="2dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/red"
+            android:layout_height="match_parent"
+            android:tint="@color/tvToolbarAllPage"
+            tl:srcCompat="@drawable/arrow" />
+
+        <com.flyco.tablayout.SlidingTabLayout
+            android:id="@+id/tl_2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:fillViewport="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            app:tl_textSelectColor="@color/selectText_tab"
+            app:tl_textUnselectColor="@color/unselectText_tab"
+            app:tl_textsize="@dimen/normal_text"
+            tl:tl_indicator_color="@color/tab_background"
+            tl:tl_indicator_corner_radius="5dp"
+            tl:tl_indicator_style="BLOCK" />
+    </TableRow>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="horizontal">
+
+
+
+        <co.ceryle.radiorealbutton.RadioRealButtonGroup
+            android:id="@+id/radioRealButtonGroup_1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:elevation="1dp"
+            app:rrbg_animateTexts_enter="overshoot"
+            app:rrbg_animateTexts_enterDuration="500"
+            app:rrbg_backgroundColor="@color/White"
+            app:rrbg_bottomLineColor="@color/gray"
+            app:rrbg_bottomLineSize="1dp"
+            app:rrbg_checkedPosition="2"
+            app:rrbg_dividerColor="@color/gray"
+            app:rrbg_dividerPadding="10dp"
+            app:rrbg_dividerRadius="0dp"
+            app:rrbg_dividerSize="1dp"
+            app:rrbg_enableDeselection="false"
+
+            app:rrbg_radius="0dp"
+            app:rrbg_selectorAboveOfBottomLine="true"
+            tl:rrbg_animateTexts_textColorFrom="@color/gray"
+            tl:rrbg_animateTexts_textColorTo="@color/red"
+            app:rrbg_selectorColor="@color/White"
+            app:rrbg_selectorFullSize="true"
+            app:rrbg_selectorSize="4dp">
+
+            <co.ceryle.radiorealbutton.RadioRealButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rrb_drawableHeight="48dp"
+                app:rrb_drawableWidth="48dp"
+                app:rrb_text="همه"
+                app:rrb_textTypefacePath="font/iran_sans.ttf"/>
+
+            <co.ceryle.radiorealbutton.RadioRealButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rrb_drawableHeight="36dp"
+                app:rrb_drawableWidth="36dp"
+                app:rrb_text="ماه"
+                app:rrb_textTypefacePath="font/iran_sans.ttf"/>
+
+            <co.ceryle.radiorealbutton.RadioRealButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rrb_drawableHeight="24dp"
+                app:rrb_drawableWidth="24dp"
+                app:rrb_text="هفته"
+                app:rrb_textTypefacePath="font/iran_sans.ttf"/>
+        </co.ceryle.radiorealbutton.RadioRealButtonGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/chart_content"
+            layout="@layout/exercise_chart"></include>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

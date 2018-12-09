@@ -1,0 +1,111 @@
+﻿@font-face {
+    font-family: koodak;
+    src: url(file:///android_asset/font/iran_sans.ttf);
+}
+
+.body1 {
+    direction: rtl;
+    font-family: koodak;
+    background-color: #ffffff;
+}
+.body2 {
+    direction: rtl;
+    font-family: koodak;
+            color: #757575;
+    background-color: #ffffff;
+}
+
+.c1 {
+
+      padding: 3px;
+        direction: rtl;
+        color: #000000;
+        text-align: justify;
+        font-family: koodak;
+        font-size: 18px;
+        height: auto;
+            padding-top: 1px;
+            padding-bottom: 1px;
+
+            direction: rtl;
+            margin: auto;
+}
+.c8 {
+
+      padding: 3px;
+        direction: rtl;
+        color: #8A2BE2;
+        text-align: justify;
+        font-family: koodak;
+        font-size: 18px;
+        height: auto;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            direction: rtl;
+            margin: auto;
+}
+
+.c2 {
+
+    padding: 30dp;
+            color: #575757;
+    direction: rtl;
+    text-align: justify;
+    font-family: koodak;
+    font-size: 16dp;
+}
+
+.c3 {
+    text-align: justify;
+    font-family: koodak;
+    font-size: 18px;
+}
+
+.c4 {
+
+    font-family: koodak;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00C853;
+    height: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    direction: rtl;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.header_p {
+
+
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.line_p {
+
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.line_p2 {
+
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.line_p3 {
+
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.side{ display: flex;
+    flex-flow: row nowrap;
+    align-items: center;}

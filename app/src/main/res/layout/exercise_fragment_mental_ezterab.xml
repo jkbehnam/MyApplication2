@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/white"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:descendantFocusability="afterDescendants">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/what_is_ezterab_cardview"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/expandible_cv"
+                        app:cardBackgroundColor="@color/unselect_cardview"
+                        card_view:cardPreventCornerOverlap="false"
+                        card_view:cardUseCompatPadding="false"
+
+                        card_view:elevation="0dp">
+
+                        >
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <com.github.zagum.expandicon.ExpandIconView
+                                android:id="@+id/eiv1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="9dp"
+                                android:layout_weight="3"
+                                app:eiv_colorLess="@color/unselected_cardview_text"
+                                app:eiv_colorMore="@color/selected_cardview_text"
+                                app:eiv_switchColor="true" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/what_is_ezterab_title"
+                                        android:layout_width="wrap_content"
+
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="@dimen/tvMessageActivityMargin"
+                                        android:layout_marginRight="@dimen/tvMessageActivityMargin"
+                                        android:layout_weight="1"
+
+                                        android:gravity="right|center"
+                                        android:text="اضطراب چیست؟  "
+                                        android:textColor="@color/unselected_cardview_text"
+                                        android:textSize="@dimen/list_title_text" />
+                                </TableRow>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                        android:id="@+id/what_is_ezterab_expandableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:ael_duration="500"
+                        app:ael_expanded="false"
+                        app:ael_interpolator="bounce"
+                        app:ael_orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/what_is_ezterab_cardview2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+
+                                        <com.codesgood.views.JustifiedTextView
+                                            android:id="@+id/what_is_ezterab_textView"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:justificationMode="inter_word"
+                                            android:textSize="@dimen/normal_text"></com.codesgood.views.JustifiedTextView>
+
+                                    </TableRow>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/ezterab_test_cardview"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/expandible_cv"
+                        app:cardBackgroundColor="@color/unselect_cardview"
+                        card_view:cardPreventCornerOverlap="false"
+                        card_view:cardUseCompatPadding="false"
+
+                        card_view:elevation="0dp">
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+                            <com.github.zagum.expandicon.ExpandIconView
+                                android:id="@+id/eiv2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="9dp"
+                                android:layout_weight="3"
+                                app:eiv_colorLess="@color/unselected_cardview_text"
+                                app:eiv_colorMore="@color/selected_cardview_text"
+                                app:eiv_switchColor="true" />/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:id="@+id/main_sport_title"
+                                        android:layout_width="wrap_content"
+
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="@dimen/tvMessageActivityMargin"
+                                        android:layout_marginRight="@dimen/tvMessageActivityMargin"
+                                        android:layout_weight="1"
+
+                                        android:gravity="right|center"
+                                        android:text="پرسشنامه بررسی شدت اضطراب  "
+                                        android:textColor="@color/unselected_cardview_text"
+                                        android:textSize="@dimen/list_title_text" />
+                                </TableRow>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                        android:id="@+id/ezterab_test_expandableLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="5sp"
+                        android:layout_marginStart="5sp"
+                        app:ael_duration="500"
+                        app:ael_expanded="false"
+                        app:ael_interpolator="bounce"
+                        app:ael_orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.CardView
+                                android:id="@+id/ezterab_test_cardview2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:foreground="?android:attr/selectableItemBackground">
+
+                                >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:padding="10dp">
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+
+                                        <TextView
+                                            android:id="@+id/textView6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+
+                                            android:gravity="start"
+                                            android:text="در طول دو هفته ی گذشته، هر یک از مشکلات زیر برای چه مدت شما را آزار داده اند؟"
+                                            android:textSize="@dimen/normal_text" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+
+                                        <android.support.v7.widget.RecyclerView
+                                            android:id="@+id/ezterab_test_rcl_chbox"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:nestedScrollingEnabled="false" />
+                                    </TableRow>
+
+                                </LinearLayout>
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

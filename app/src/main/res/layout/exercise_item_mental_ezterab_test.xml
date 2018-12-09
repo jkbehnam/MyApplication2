@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end|center_vertical"
+        android:paddingBottom="3sp"
+        android:paddingEnd="10sp"
+        android:paddingStart="10sp"
+        android:paddingTop="3sp">
+
+        <TextView
+            android:id="@+id/test_textView"
+            android:textSize="@dimen/main_list_textZise"
+android:textColor="@color/tertiarytext_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end|center_vertical"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+
+        android:paddingEnd="10sp"
+        android:paddingStart="10sp"
+
+        >
+
+        <com.whygraphics.multilineradiogroup.MultiLineRadioGroup
+            xmlns:multi_line_radio_group="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_activity_multi_line_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            multi_line_radio_group:max_in_row="2"
+             />
+    </TableRow>
+
+</LinearLayout>

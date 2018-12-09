@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentsBackground"
+
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+
+        layout="@layout/exercise_toolbar_all_page"
+        android:layout_above="@+id/ho_main"
+        tools:ignore="IncludeLayoutParam"></include>
+
+    <LinearLayout
+
+        android:id="@+id/ho_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/home_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:includeFontPadding="false"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/pollution_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:includeFontPadding="false"
+                            android:textColor="@color/topmenu_color"
+                            android:textSize="25dp" />
+
+
+                        <TextView
+                            android:id="@+id/txt_tmp"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:lineSpacingExtra="-8dp"                            android:text="شاخص آلودگی هوا" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/txt_day_of_month"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:includeFontPadding="false"
+                            android:text="TextView"
+                            android:lineSpacingExtra="-8dp"
+                            android:textColor="@color/topmenu_color"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/txt_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:text="TextView"
+                            android:lineSpacingExtra="-8dp"
+                            android:textColor="@color/topmenu_color" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|bottom">
+
+                            <TextView
+                                android:id="@+id/temp_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:includeFontPadding="false"
+                                android:text=""
+                                android:textColor="@color/topmenu_color"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/temp_photo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:includeFontPadding="false"
+                                android:text=""
+                                android:textColor="@color/topmenu_color"
+                                android:textSize="20sp" />
+                        </TableRow>
+
+                        <TextView
+
+                            android:id="@+id/txt_tmp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:text="دمای هوا"
+                            android:textColor="@color/topmenu_color" />
+                    </LinearLayout>
+                </TableRow>
+
+                <android.support.v7.widget.RecyclerView
+
+                    android:id="@+id/HomeRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

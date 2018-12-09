@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:id="@+id/tv_alarm_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/stopring"
+                android:layout_centerHorizontal="true"
+
+                android:layout_margin="20dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:text="ضربان قلب شما بالاست، لطفا فعالیت خود را کم کنید و با سرعت و شدت کمتری فعالیت را ادامه دهید"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                 />
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/save"
+android:clickable="true"
+                    android:text="متوجه شدم"
+
+                    android:textColor="@color/white"
+                    android:background="@color/primary_dark"></Button>
+
+            </TableRow>
+
+        </LinearLayout>
+</RelativeLayout>

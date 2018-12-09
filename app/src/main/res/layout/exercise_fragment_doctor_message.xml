@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chatview="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    style="@style/Widget.AppCompat.ButtonBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+    tools:context=".activities.MainActivity">
+
+    <co.intentservice.chatui.ChatView
+        android:id="@+id/chat_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+android:background="@color/base_background"
+
+        chatview:bubbleElevation="elevated"
+        chatview:backgroundColor="@color/base_background"
+        android:foregroundTint="@color/base_background"
+        chatview:sendBtnBackgroundTint="@color/primarydark_dark"
+        chatview:bubbleBackgroundRcv="@color/primarydark_dark"
+        chatview:bubbleBackgroundSend="@color/base_background" />
+
+</LinearLayout>

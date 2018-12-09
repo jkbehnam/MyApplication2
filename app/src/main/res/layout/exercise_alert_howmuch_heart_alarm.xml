@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_alarm_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/stopring"
+            android:layout_centerHorizontal="true"
+
+            android:layout_margin="20dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:text="چه مدت است که در حال ورزش هستید؟"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <com.whygraphics.multilineradiogroup.MultiLineRadioGroup xmlns:multi_line_radio_group="http://schemas.android.com/apk/res-auto"
+
+                android:id="@+id/main_activity_multi_line_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                multi_line_radio_group:max_in_row="2" />
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/save"
+                android:clickable="true"
+                android:text="ثبت"
+                android:background="@color/primary_dark"
+                android:textColor="@color/white"></Button>
+
+        </TableRow>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/warm_ups_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1sp"
+            android:clickable="true"
+            android:background="#ffffff"
+            >
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#ffffff"
+
+                android:layout_height="match_parent">
+
+                <com.github.zagum.expandicon.ExpandIconView
+                    android:id="@+id/eiv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_margin="10sp"
+                    android:layout_weight="3" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TableRow
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/_title"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/tvMessageActivityMargin"
+                            android:layout_marginRight="@dimen/tvMessageActivityMargin"
+                            android:layout_weight="1"
+                            android:gravity="right|center"
+                            android:text="گرم کردن"
+                            android:textColor="@color/tvMessageActivityTitleColor"
+                            android:textSize="@dimen/list_title_text" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                    </TableRow>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <com.github.aakira.expandablelayout.ExpandableLinearLayout
+            android:id="@+id/_expandableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5sp"
+            android:layout_marginStart="5sp"
+            app:ael_duration="500"
+            app:ael_expanded="false"
+            app:ael_interpolator="bounce"
+            app:ael_orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardview_be_intelligent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"
+
+                        android:orientation="vertical">
+
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3sp"
+                            android:paddingEnd="10sp"
+                            android:paddingStart="10sp"
+                            android:paddingTop="3sp">
+
+
+                            <TextView
+                                android:id="@+id/_content_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3sp"
+                            android:paddingEnd="10sp"
+                            android:paddingStart="10sp"
+                            android:paddingTop="3sp">
+
+
+                            <TextView
+                                android:id="@+id/_content_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3sp"
+                            android:paddingEnd="10sp"
+                            android:paddingStart="10sp"
+                            android:paddingTop="3sp">
+
+
+                            <TextView
+                                android:id="@+id/_content_link1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="3sp"
+                            android:paddingEnd="10sp"
+                            android:paddingStart="10sp"
+                            android:paddingTop="3sp">
+
+
+                            <TextView
+                                android:id="@+id/_content_link2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TextView" />
+                        </TableRow>
+
+
+
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical">
+
+    <include android:id="@+id/toolbar" layout="@layout/exercise_toolbar_mental"></include>
+
+  <!--  <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tl_1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:fillViewport="true"
+        app:tl_textsize="19sp"
+        app:tl_underline_color="#6c8aa6"
+        app:tl_indicator_color="#6c8aa6"
+        app:tl_tab_space_equal="true"
+        app:tl_textSelectColor="#6c8aa6" />
+-->
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tl_1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:tl_textsize="@dimen/normal_text"
+        android:layout_gravity="center"
+        android:fillViewport="true"
+
+        app:tl_textSelectColor="@color/selectText_tab"
+        app:tl_textUnselectColor="@color/unselectText_tab"
+        app:tl_indicator_color="@color/tab_background"
+        app:tl_indicator_corner_radius="5dp"
+        app:tl_tab_space_equal="true"
+        app:tl_indicator_style="BLOCK"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

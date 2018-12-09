@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+android:orientation="vertical"
+    android:layoutDirection="ltr"
+
+    android:background="@color/primary_light">
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvToolbarAllPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+
+            android:layout_marginEnd="69dp"
+            android:text="آموزش نرمش"
+            android:textColor="@color/tvToolbarAllPage"
+            android:textSize="@dimen/toolbar_all_page" />
+
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="25dp"
+            android:layout_height="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="19dp"
+            android:tint="@color/tvToolbarAllPage"
+            app:srcCompat="@drawable/exercise_exit_white" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
